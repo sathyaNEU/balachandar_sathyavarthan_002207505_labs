@@ -100,7 +100,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         useFeatureBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         lblTitle.setText("View Product Details");
 
@@ -108,6 +108,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
         lblPrice.setText("Price:");
 
+        btnUpdate.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnUpdate.setText("Update Product");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,6 +127,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
         lblId.setText("ID:");
 
+        btnSave.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnSave.setText("Save");
         btnSave.setEnabled(false);
         btnSave.addActionListener(new java.awt.event.ActionListener() {
@@ -148,6 +150,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         tblFeatures.setEnabled(false);
         jScrollPane1.setViewportView(tblFeatures);
 
+        btnAddFeature.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnAddFeature.setText("Add Feature");
         btnAddFeature.setEnabled(false);
         btnAddFeature.addActionListener(new java.awt.event.ActionListener() {
@@ -156,6 +159,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnRemoveFeature.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnRemoveFeature.setText("Remove Feature");
         btnRemoveFeature.setEnabled(false);
         btnRemoveFeature.addActionListener(new java.awt.event.ActionListener() {
@@ -170,6 +174,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         imgLogo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         imgLogo.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        btnAttach.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnAttach.setText("Attach");
         btnAttach.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,6 +182,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnRemove.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnRemove.setText("Remove");
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,6 +194,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
         jLabel1.setText("Existing Features");
 
+        useFeatureBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         useFeatureBtn.setText("Use Feature");
         useFeatureBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -213,7 +220,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
                         .addComponent(lblLogo)
                         .addGap(18, 18, 18)
                         .addComponent(imgLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)

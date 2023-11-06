@@ -58,7 +58,7 @@ public class LoginScreen extends javax.swing.JPanel {
         cmbSuppliers = new javax.swing.JComboBox<>();
         lblSupplier = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         lblTitle.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblTitle.setText("Welcome to Lab 4 Demo");

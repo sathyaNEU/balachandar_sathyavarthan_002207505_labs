@@ -70,7 +70,7 @@ public class ManageSuppliers extends javax.swing.JPanel {
         lblSupplierList = new javax.swing.JLabel();
         backBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         jScrollPane1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -95,6 +95,7 @@ public class ManageSuppliers extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblSuppliers);
 
+        btnRemove.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnRemove.setText("Remove");
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,6 +103,7 @@ public class ManageSuppliers extends javax.swing.JPanel {
             }
         });
 
+        btnView.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnView.setText("View Supplier");
         btnView.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,6 +111,7 @@ public class ManageSuppliers extends javax.swing.JPanel {
             }
         });
 
+        btnAdd.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnAdd.setText("Add Supplier");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,6 +119,7 @@ public class ManageSuppliers extends javax.swing.JPanel {
             }
         });
 
+        lblSupplierList.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblSupplierList.setText("Manage Suppliers:");
 
         backBtn.setText("<< Back");

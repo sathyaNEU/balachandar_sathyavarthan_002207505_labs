@@ -53,6 +53,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         menuBar.setBackground(new java.awt.Color(255, 255, 255));
 
+        btnManageSuppliers.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnManageSuppliers.setText("Manage Suppliers");
         btnManageSuppliers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -60,6 +61,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnLogOut.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnLogOut.setText("Log Out");
         btnLogOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,7 +78,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, menuBarLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(lblWelcome, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 295, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 283, Short.MAX_VALUE)
                 .addComponent(btnManageSuppliers)
                 .addGap(19, 19, 19)
                 .addComponent(btnLogOut)
@@ -95,7 +97,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         splitPane.setTopComponent(menuBar);
 
-        workArea.setBackground(new java.awt.Color(255, 255, 255));
+        workArea.setBackground(new java.awt.Color(204, 204, 255));
         workArea.setLayout(new java.awt.CardLayout());
         splitPane.setRightComponent(workArea);
 

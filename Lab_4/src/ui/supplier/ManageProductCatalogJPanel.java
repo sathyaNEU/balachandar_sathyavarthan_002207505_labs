@@ -65,8 +65,9 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
         btnDelete = new javax.swing.JButton();
         imgLogo = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
+        lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblTitle.setText("Manage Product Catalog");
 
         tblProducts.setModel(new javax.swing.table.DefaultTableModel(
@@ -82,6 +83,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblProducts);
 
+        btnView.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnView.setText("View Details...");
         btnView.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,6 +91,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnCreate.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnCreate.setText("Add Product...");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,6 +99,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSearch.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnSearch.setText("Search");
         btnSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +107,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnDelete.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

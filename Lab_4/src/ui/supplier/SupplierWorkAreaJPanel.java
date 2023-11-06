@@ -65,6 +65,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
         menuBar.setBackground(new java.awt.Color(255, 255, 255));
 
+        btnLogOut.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnLogOut.setText("Log Out");
         btnLogOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,6 +75,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
         lblWelcome.setText("<WelcomeMsg>");
 
+        btnManageProductCatalog.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnManageProductCatalog.setText("Product Catalog");
         btnManageProductCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -81,6 +83,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSupplierProfile.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnSupplierProfile.setText("Update Profile");
         btnSupplierProfile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,7 +108,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
             menuBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, menuBarLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(lblWelcome, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE)
+                .addComponent(lblWelcome, javax.swing.GroupLayout.DEFAULT_SIZE, 147, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnManageProductCatalog)
                 .addGap(18, 18, 18)
@@ -134,7 +137,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
         splitPane.setTopComponent(menuBar);
 
-        workArea.setBackground(new java.awt.Color(255, 255, 255));
+        workArea.setBackground(new java.awt.Color(204, 204, 255));
         workArea.setLayout(new java.awt.CardLayout());
         splitPane.setRightComponent(workArea);
 

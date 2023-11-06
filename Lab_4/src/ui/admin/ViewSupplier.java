@@ -61,8 +61,9 @@ public class ViewSupplier extends javax.swing.JPanel {
         productCatalog = new javax.swing.JTable();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
+        lblSupplierName.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblSupplierName.setText("<Supplier Name>");
 
         productCatalog.setModel(new javax.swing.table.DefaultTableModel(
