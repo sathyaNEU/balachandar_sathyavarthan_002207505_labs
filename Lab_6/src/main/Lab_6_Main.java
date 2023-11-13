@@ -94,11 +94,17 @@ public class Lab_6_Main {
     
     private void runAnalysis(){
         // TODO
+        System.out.println();
         helper.getAverageLikesPerComments();
+        System.out.println();
         helper.getMostCommentedPost();
+        System.out.println();
         helper.getMostLikedCommentPost();  
+        System.out.println();
         helper.getTop5PassiveUsers();
+        System.out.println();
         helper.getTop5PassiveCommentedUsers();
+        System.out.println();
         helper.getTop5ActivePassiveOverallMetricUsers();
     }
 }

@@ -45,7 +45,7 @@ public class AnalysisHelper {
                 if(post.getComments().size()>maxCommentPost.getComments().size())
                     maxCommentPost = post;
         }
-            System.out.println("Most commented Post : "+maxCommentPost.getPostId());
+            System.out.println("Most commented Post : "+maxCommentPost.getPostId()+" , Comment count = "+maxCommentPost.getComments().size());
         }
         
         public void getMostLikedCommentPost(){
@@ -59,7 +59,7 @@ public class AnalysisHelper {
                         mostLikedComment = comment;
             }
             int id = mostLikedComment.getPostId();
-            System.out.println("Post which has most liked comment : "+ data.getPosts().get(id).getPostId());
+            System.out.println("Post which has most liked comment : "+ data.getPosts().get(id).getPostId()+" , Like count = "+mostLikedComment.getLikes());
         }
         
         
@@ -125,10 +125,10 @@ public class AnalysisHelper {
             Collections.sort(userList, new UserMapComparator(userOverallNum));
             System.out.println("Top 5 Overall InActive users");
             for(int i=0; i< 5;i++)
-                System.out.println(userList.get(i)+"overall activity score"+userOverallNum.get(userList.get(i).getId()));
-            System.out.println("Top 5 Overall Active users");
+                System.out.println(userList.get(i)+" , overall activity score"+userOverallNum.get(userList.get(i).getId()));
+            System.out.println("\nTop 5 Overall Active users");
             for(int i=userList.size()-1; i>=userList.size()-5;i--)
-                System.out.println(userList.get(i)+"overall activity score = "+userOverallNum.get(userList.get(i).getId()));
+                System.out.println(userList.get(i)+" , overall activity score = "+userOverallNum.get(userList.get(i).getId()));
         }
         
         
